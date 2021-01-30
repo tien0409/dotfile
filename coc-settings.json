@@ -1,0 +1,42 @@
+{
+  "suggest.maxCompleteItemCount": 12,
+  "snippets.extends": {
+    "cpp": ["c"],
+    "javascriptreact": ["javascript"]
+    /* "typescript": ["javascript, javascriptreact"] */
+  },
+  "javascript.referencesCodeLens.enable": false,
+  "javascript.validate.enable": false,
+  "coc.preferences.formatOnSaveFiletypes": [
+    "jst",
+    "html",
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "css",
+    "scss",
+    "markdown",
+    "jsonc",
+    "java",
+    "cpp"
+  ],
+  "prettier.trailingComma": "all",
+  "eslint.autoFixOnSave": true,
+  "eslint.options": {
+    "parserOptions": {
+      "ecmaVersion": 6,
+      "sourceType": "module",
+      "ecmaFeatures": {
+        "jsx": true
+      }
+    },
+    "rules": {
+      "quotes": "double",
+      "react-hooks/rules-of-hooks": "warn",
+      "react-hooks/exhaustive-deps": "warn"
+    }
+  },
+  "tslint.enable": false,
+  "clangd.path": "/home/stone/.config/coc/extensions/coc-clangd-data/install/11.0.0/clangd_11.0.0/bin/clangd"
+}

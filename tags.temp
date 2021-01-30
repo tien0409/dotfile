@@ -1,0 +1,47 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+polyglot	bundle/vim-polyglot/plugin/polyglot.vim	/^    augroup polyglot-sensible$/;"	a
+<C-U>	bundle/vim-polyglot/plugin/polyglot.vim	/^    inoremap <C-U> <C-G>u<C-U>$/;"	m
+<C-W>	bundle/vim-polyglot/plugin/polyglot.vim	/^    inoremap <C-W> <C-G>u<C-W>$/;"	m
+current_compiler	bundle/vim-polyglot/compiler/exunit.vim	/^let current_compiler = "exunit"$/;"	v
+CompilerSet	bundle/vim-polyglot/compiler/exunit.vim	/^  command -nargs=* CompilerSet setlocal <args>$/;"	c
+s:cpo_save	bundle/vim-polyglot/compiler/exunit.vim	/^let s:cpo_save = &cpo$/;"	v
+current_compiler	bundle/vim-polyglot/compiler/ocaml.vim	/^let current_compiler = "ocaml"$/;"	v
+s:cpo_save	bundle/vim-polyglot/compiler/ocaml.vim	/^let s:cpo_save = &cpo$/;"	v
+current_compiler	bundle/vim-polyglot/compiler/ant.vim	/^let current_compiler = "ant"$/;"	v
+CompilerSet	bundle/vim-polyglot/compiler/ant.vim	/^  command -nargs=* CompilerSet setlocal <args>$/;"	c
+s:cpo_save	bundle/vim-polyglot/compiler/ant.vim	/^let s:cpo_save = &cpo$/;"	v
+current_compiler	bundle/vim-polyglot/compiler/fish.vim	/^let current_compiler = 'fish'$/;"	v
+current_compiler	bundle/vim-polyglot/compiler/nim.vim	/^let current_compiler = 'nim'$/;"	v
+CompilerSet	bundle/vim-polyglot/compiler/nim.vim	/^  command -nargs=* CompilerSet setlocal <args>$/;"	c
+s:cpo_save	bundle/vim-polyglot/compiler/nim.vim	/^let s:cpo_save = &cpo$/;"	v
+g:syntastic_nim_checkers	bundle/vim-polyglot/compiler/nim.vim	/^let g:syntastic_nim_checkers = ['nim']$/;"	v
+current_compiler	bundle/vim-polyglot/compiler/sass.vim	/^let current_compiler = "sass"$/;"	v
+CompilerSet	bundle/vim-polyglot/compiler/sass.vim	/^  command -nargs=* CompilerSet setlocal <args>$/;"	c
+s:cpo_save	bundle/vim-polyglot/compiler/sass.vim	/^let s:cpo_save = &cpo$/;"	v
+current_compiler	bundle/vim-polyglot/compiler/gradle.vim	/^let current_compiler = "gradle"$/;"	v
+CompilerSet	bundle/vim-polyglot/compiler/gradle.vim	/^  command -nargs=* CompilerSet setlocal <args>$/;"	c
+current_compiler	bundle/vim-polyglot/compiler/sbt.vim	/^let current_compiler = 'sbt'$/;"	v
+CompilerSet	bundle/vim-polyglot/compiler/sbt.vim	/^  command -nargs=* CompilerSet setlocal <args>$/;"	c
+s:cpo_save	bundle/vim-polyglot/compiler/sbt.vim	/^let s:cpo_save = &cpo$/;"	v
+current_compiler	bundle/vim-polyglot/compiler/coffee.vim	/^let current_compiler = 'coffee'$/;"	v
+s:pat	bundle/vim-polyglot/compiler/coffee.vim	/^let s:pat = '^' . current_compiler$/;"	v
+GetMakePrg	bundle/vim-polyglot/compiler/coffee.vim	/^function! s:GetMakePrg()$/;"	f
+SetMakePrg	bundle/vim-polyglot/compiler/coffee.vim	/^function! s:SetMakePrg()$/;"	f
+CoffeeMakeDeprecated	bundle/vim-polyglot/compiler/coffee.vim	/^function! s:CoffeeMakeDeprecated(bang, args)$/;"	f
+CoffeeMake	bundle/vim-polyglot/compiler/coffee.vim	/^command! -bang -bar -nargs=* CoffeeMake$/;"	c
+CoffeeUpdateMakePrg	bundle/vim-polyglot/compiler/coffee.vim	/^augroup CoffeeUpdateMakePrg$/;"	a
+UpdateMakePrg	bundle/vim-polyglot/compiler/coffee.vim	/^  function! s:UpdateMakePrg()$/;"	f
+current_compiler	bundle/vim-polyglot/compiler/ls.vim	/^let current_compiler = 'ls'$/;"	v
+s:pat	bundle/vim-polyglot/compiler/ls.vim	/^let s:pat = '^' . current_compiler$/;"	v
+livescript_compiler	bundle/vim-polyglot/compiler/ls.vim	/^  let livescript_compiler = 'lsc'$/;"	v
+livescript_make_options	bundle/vim-polyglot/compiler/ls.vim	/^  let livescript_make_options = ''$/;"	v
+GetMakePrg	bundle/vim-polyglot/compiler/ls.vim	/^function! s:GetMakePrg()$/;"	f
+SetMakePrg	bundle/vim-polyglot/compiler/ls.vim	/^function! s:SetMakePrg()$/;"	f
+LiveScriptMake	bundle/vim-polyglot/compiler/ls.vim	/^command! -bang -bar -nargs=* LiveScriptMake make<bang> <args>$/;"	c
+LiveScriptUpdateMakePrg	bundle/vim-polyglot/compiler/ls.vim	/^augroup LiveScriptUpdateMakePrg$/;"	a
+UpdateMakePrg	bundle/vim-polyglot/
